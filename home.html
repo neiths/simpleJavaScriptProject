@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style.css">
+    <title>small project</title>
+</head>
+<body>
+    <div class="container-1">
+        <h2>challenge 1: Your Age In Days</h2>
+        <div class="flex-container-1">
+            <div>
+                <button class="btn btn-primary" onclick="ageInDay()" >Click me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <div class="flex-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+    <div class="container-2">
+        <h2>challenge 2: cat generator</h2>
+        <button class="btn btn-success" onclick="generatorCat()">cat generator</button>
+
+        <div id="cat-generator">
+
+        </div>           
+    </div>
+    <div class="container-3">
+        <h2>challenge 3: rock, scissors, paper</h2>
+        <div class="flex-box-rps" id="flex-box-rps">
+            <img id="rock" src='https://images-na.ssl-images-amazon.com/images/I/61m9jG%2Bjj-L._AC_SX679_.jpg' alt="" width="150" height="150" onclick="rpsGame(this)">
+            <img id="paper" src="https://images-na.ssl-images-amazon.com/images/I/61fVSrXS5aL._AC_SL1202_.jpg" alt="" width="150" height="150" onclick="rpsGame(this)">
+            <img id="scissors" src="https://images-na.ssl-images-amazon.com/images/I/81TD%2B0Y9f6L._AC_SL1500_.jpg" alt="" width="150" height="150" onclick='rpsGame(this)'>
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
